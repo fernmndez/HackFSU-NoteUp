@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FSU</key>
+	<dict>
+		<key>MAD 2104</key>
+		<array>
+			<string>Math Department</string>
+			<string>Discrete Math</string>
+		</array>
+		<key>ENC 1101</key>
+		<array>
+			<string>English Department</string>
+			<string>Writing and Rhetoric I</string>
+		</array>
+	</dict>
+	<key>FIU</key>
+	<dict>
+		<key>COP 4990</key>
+		<array>
+			<string>School of Computing and Information Sciences</string>
+			<string>IT Automation</string>
+		</array>
+		<key>CAP 3993</key>
+		<array>
+			<string>School of Computing and Information Sciences</string>
+			<string>Introduction to Human-Computer Interaction</string>
+		</array>
+		<key>CEN 3721</key>
+		<array>
+			<string>School of Computing and Information Sciences</string>
+			<string>Introduction to Human-Computer Interaction</string>
+		</array>
+		<key>COP 1000</key>
+		<array>
+			<string>School of Computing and Information Sciences</string>
+			<string>Introduction to Computer Programming</string>
+		</array>
+		<key>CGS 3643</key>
+		<array>
+			<string>School of Computing and Information Sciences</string>
+			<string>Microcomputer Organization</string>
+		</array>
+	</dict>
+</dict>
+</plist>
