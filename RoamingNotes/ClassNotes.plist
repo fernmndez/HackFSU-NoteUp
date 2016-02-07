@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CAP 3993</key>
+	<array>
+		<string>Lecture On Human Computer Interaction Notes</string>
+		<string>10</string>
+	</array>
+	<key>COP 4990</key>
+	<array>
+		<string>Lecture notes on IT Automation</string>
+		<string>10</string>
+	</array>
+	<key>ENC 1101</key>
+	<array>
+		<string>Study guide for first test</string>
+		<string>7</string>
+	</array>
+</dict>
+</plist>

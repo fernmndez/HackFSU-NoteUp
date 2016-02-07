@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>saved-notes</key>
+	<array>
+		<array>
+			<string>MAD 2104</string>
+			<string>02-06-2016</string>
+			<string></string>
+			<string>http://mathstat.fiu.edu/faculty/susan-gorman/discrete_math_course_pack.pdf</string>
+		</array>
+		<array>
+			<string>MAD 2104</string>
+			<string>02-06-2016</string>
+			<string></string>
+			<string>http://mathstat.fiu.edu/faculty/susan-gorman/discrete_math_notes.pdf</string>
+		</array>
+		<array>
+			<string>COP 4990</string>
+			<string>02-07-2016</string>
+			<string></string>
+			<string>http://users.cis.fiu.edu/~taoli/pub/dm05_53LiT.pdf</string>
+		</array>
+		<array>
+			<string>COP 4990</string>
+			<string>02-07-2016</string>
+			<string></string>
+			<string>http://users.cis.fiu.edu/~zhaom/research/europar05.pdf</string>
+		</array>
+		<array>
+			<string>CAP 3993</string>
+			<string>02-07-2016</string>
+			<string></string>
+			<string>http://users.cis.fiu.edu/~czhang/publication/mtap2009.pdf</string>
+		</array>
+		<array>
+			<string>CAP 3993</string>
+			<string>02-07-2016</string>
+			<string>Students will learn the fundamental concepts of human-computer interaction and user-centered design thinking. Students will also become familiar with novel approaches relating to recent human computer interaction. </string>
+			<string></string>
+		</array>
+		<array>
+			<string>CEN 3721</string>
+			<string>02-07-2016</string>
+			<string>C1
+Human factors: cognitive principles, understanding the user, 
+designing for humans
+6
+HC2
+HCI aspects of application domains: type of 
+environments, 
+cognitive models, approaches
+6
+HC3
+Human
+-
+centered evaluation: heuristics, usability testing and 
+standards
+6
+HC4
+Developing effective interfaces: understanding interaction 
+styles, matching interface elements to user requirements, 
+GUIs and no
+n
+-
+GUI interfaces, prototyping
+6
+HC
+5
+Accessibility: biometrics, repetitive stress syndrome
+, 
+guidelines and regulations
+2
+HC
+6
+Emerging Technologies: alternative input/output devices, 
+mobile computing, wearable computing, virtual reality 
+systems, pervasive 
+computing, sensor
+-
+nets
+6
+HC7
+Human
+-
+Centered Computing: human
+-
+centered design 
+methods, software development lifecycle, user analysis of 
+profiles and personas, social computing, task analysis, 
+scenarios, uses cases</string>
+			<string></string>
+		</array>
+		<array>
+			<string>ENC 1102</string>
+			<string>02-08-2016</string>
+			<string></string>
+			<string>https://i.imgur.com/0r68Dzl.jpg</string>
+		</array>
+	</array>
+	<key>user</key>
+	<dict>
+		<key>image</key>
+		<string>https://lh3.googleusercontent.com/-r7WYxaZw1KI/AAAAAAAAAAI/AAAAAAAAAB0/Kk9DmCcaaWQ/s120-c/photo.jpg</string>
+		<key>name</key>
+		<string>Aldo Egas</string>
+		<key>stats</key>
+		<dict>
+			<key>likes</key>
+			<string>3</string>
+			<key>uploads</key>
+			<string>7</string>
+			<key>credits</key>
+			<string>10</string>
+		</dict>
+		<key>major</key>
+		<string>Computer Science, B.S.</string>
+		<key>university</key>
+		<string>Florida International University</string>
+		<key>email</key>
+		<string>aegas002@fiu.edu</string>
+		<key>member-since</key>
+		<string>02-05-2016</string>
+	</dict>
+	<key>settings</key>
+	<dict>
+		<key>cellular</key>
+		<true/>
+		<key>sound</key>
+		<string>Note</string>
+		<key>push</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

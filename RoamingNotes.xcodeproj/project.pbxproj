@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182FC0AA1C6625B60017CF7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0A91C6625B60017CF7B /* AppDelegate.swift */; };
+		182FC0AC1C6625B60017CF7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0AB1C6625B60017CF7B /* HomeViewController.swift */; };
+		182FC0AE1C6625B60017CF7B /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0AD1C6625B60017CF7B /* ClassesViewController.swift */; };
+		182FC0B11C6625B60017CF7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FC0AF1C6625B60017CF7B /* Main.storyboard */; };
+		182FC0B31C6625B60017CF7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182FC0B21C6625B60017CF7B /* Assets.xcassets */; };
+		182FC0B61C6625B60017CF7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FC0B41C6625B60017CF7B /* LaunchScreen.storyboard */; };
+		182FC0BE1C662E7F0017CF7B /* SavedNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0BD1C662E7F0017CF7B /* SavedNotesViewController.swift */; };
+		182FC0C01C6631920017CF7B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0BF1C6631920017CF7B /* SettingsViewController.swift */; };
+		182FC0C21C663A1E0017CF7B /* UploadNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0C11C663A1E0017CF7B /* UploadNotesViewController.swift */; };
+		182FC0C41C664CBC0017CF7B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0C31C664CBC0017CF7B /* SettingsTableViewController.swift */; };
+		182FC0C61C6655D70017CF7B /* RoamingNotesSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182FC0C51C6655D70017CF7B /* RoamingNotesSettings.plist */; };
+		182FC0CA1C6675080017CF7B /* SaveNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0C91C6675080017CF7B /* SaveNotesTableViewCell.swift */; };
+		182FC0CC1C6676750017CF7B /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0CB1C6676750017CF7B /* Notes.swift */; };
+		182FC0CE1C667CA30017CF7B /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0CD1C667CA30017CF7B /* NotesTableViewController.swift */; };
+		182FC0D21C6696F30017CF7B /* NotesImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0D11C6696F30017CF7B /* NotesImageViewController.swift */; };
+		182FC0D41C66A9070017CF7B /* classes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182FC0D31C66A9070017CF7B /* classes.plist */; };
+		182FC0D61C66AD860017CF7B /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0D51C66AD860017CF7B /* Class.swift */; };
+		182FC0DC1C66AE0F0017CF7B /* ClassTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0DB1C66AE0F0017CF7B /* ClassTableTableViewController.swift */; };
+		182FC0DE1C66AE360017CF7B /* ClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0DD1C66AE360017CF7B /* ClassTableViewCell.swift */; };
+		182FC0E21C66D0340017CF7B /* NotesInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0E11C66D0340017CF7B /* NotesInformationViewController.swift */; };
+		182FC0E61C66D86D0017CF7B /* UploadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FC0E51C66D86D0017CF7B /* UploadTableViewController.swift */; };
+		18A945841C67101F00742655 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A945831C67101F00742655 /* MainTabBarViewController.swift */; };
+		18A945861C672B7700742655 /* ClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A945851C672B7700742655 /* ClassDetailViewController.swift */; };
+		18A945881C67348200742655 /* ClassNoteListingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A945871C67348200742655 /* ClassNoteListingTableViewController.swift */; };
+		18A9458A1C673D2300742655 /* ClassNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A945891C673D2200742655 /* ClassNotes.swift */; };
+		18A9458C1C673E1D00742655 /* ClassNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9458B1C673E1D00742655 /* ClassNotesTableViewCell.swift */; };
+		18A9458E1C673F9F00742655 /* ClassNotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A9458D1C673F9F00742655 /* ClassNotes.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		182FC0A61C6625B60017CF7B /* RoamingNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoamingNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182FC0A91C6625B60017CF7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182FC0AB1C6625B60017CF7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		182FC0AD1C6625B60017CF7B /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		182FC0B01C6625B60017CF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182FC0B21C6625B60017CF7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182FC0B51C6625B60017CF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182FC0B71C6625B60017CF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182FC0BD1C662E7F0017CF7B /* SavedNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedNotesViewController.swift; sourceTree = "<group>"; };
+		182FC0BF1C6631920017CF7B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		182FC0C11C663A1E0017CF7B /* UploadNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadNotesViewController.swift; sourceTree = "<group>"; };
+		182FC0C31C664CBC0017CF7B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		182FC0C51C6655D70017CF7B /* RoamingNotesSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RoamingNotesSettings.plist; sourceTree = "<group>"; };
+		182FC0C91C6675080017CF7B /* SaveNotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveNotesTableViewCell.swift; sourceTree = "<group>"; };
+		182FC0CB1C6676750017CF7B /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		182FC0CD1C667CA30017CF7B /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		182FC0D11C6696F30017CF7B /* NotesImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesImageViewController.swift; sourceTree = "<group>"; };
+		182FC0D31C66A9070017CF7B /* classes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classes.plist; sourceTree = "<group>"; };
+		182FC0D51C66AD860017CF7B /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		182FC0DB1C66AE0F0017CF7B /* ClassTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTableTableViewController.swift; sourceTree = "<group>"; };
+		182FC0DD1C66AE360017CF7B /* ClassTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTableViewCell.swift; sourceTree = "<group>"; };
+		182FC0E11C66D0340017CF7B /* NotesInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesInformationViewController.swift; sourceTree = "<group>"; };
+		182FC0E51C66D86D0017CF7B /* UploadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTableViewController.swift; sourceTree = "<group>"; };
+		18A945831C67101F00742655 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		18A945851C672B7700742655 /* ClassDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDetailViewController.swift; sourceTree = "<group>"; };
+		18A945871C67348200742655 /* ClassNoteListingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNoteListingTableViewController.swift; sourceTree = "<group>"; };
+		18A945891C673D2200742655 /* ClassNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNotes.swift; sourceTree = "<group>"; };
+		18A9458B1C673E1D00742655 /* ClassNotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNotesTableViewCell.swift; sourceTree = "<group>"; };
+		18A9458D1C673F9F00742655 /* ClassNotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassNotes.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182FC0A31C6625B60017CF7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182FC09D1C6625B60017CF7B = {
+			isa = PBXGroup;
+			children = (
+				182FC0A81C6625B60017CF7B /* RoamingNotes */,
+				182FC0A71C6625B60017CF7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182FC0A71C6625B60017CF7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182FC0A61C6625B60017CF7B /* RoamingNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182FC0A81C6625B60017CF7B /* RoamingNotes */ = {
+			isa = PBXGroup;
+			children = (
+				182FC0A91C6625B60017CF7B /* AppDelegate.swift */,
+				182FC0B21C6625B60017CF7B /* Assets.xcassets */,
+				182FC0D51C66AD860017CF7B /* Class.swift */,
+				18A945851C672B7700742655 /* ClassDetailViewController.swift */,
+				182FC0D31C66A9070017CF7B /* classes.plist */,
+				182FC0AD1C6625B60017CF7B /* ClassesViewController.swift */,
+				18A945871C67348200742655 /* ClassNoteListingTableViewController.swift */,
+				18A9458D1C673F9F00742655 /* ClassNotes.plist */,
+				18A945891C673D2200742655 /* ClassNotes.swift */,
+				18A9458B1C673E1D00742655 /* ClassNotesTableViewCell.swift */,
+				182FC0DB1C66AE0F0017CF7B /* ClassTableTableViewController.swift */,
+				182FC0DD1C66AE360017CF7B /* ClassTableViewCell.swift */,
+				182FC0AB1C6625B60017CF7B /* HomeViewController.swift */,
+				182FC0B71C6625B60017CF7B /* Info.plist */,
+				182FC0B41C6625B60017CF7B /* LaunchScreen.storyboard */,
+				182FC0AF1C6625B60017CF7B /* Main.storyboard */,
+				18A945831C67101F00742655 /* MainTabBarViewController.swift */,
+				182FC0CB1C6676750017CF7B /* Notes.swift */,
+				182FC0D11C6696F30017CF7B /* NotesImageViewController.swift */,
+				182FC0E11C66D0340017CF7B /* NotesInformationViewController.swift */,
+				182FC0CD1C667CA30017CF7B /* NotesTableViewController.swift */,
+				182FC0C51C6655D70017CF7B /* RoamingNotesSettings.plist */,
+				182FC0BD1C662E7F0017CF7B /* SavedNotesViewController.swift */,
+				182FC0C91C6675080017CF7B /* SaveNotesTableViewCell.swift */,
+				182FC0C31C664CBC0017CF7B /* SettingsTableViewController.swift */,
+				182FC0BF1C6631920017CF7B /* SettingsViewController.swift */,
+				182FC0C11C663A1E0017CF7B /* UploadNotesViewController.swift */,
+				182FC0E51C66D86D0017CF7B /* UploadTableViewController.swift */,
+			);
+			path = RoamingNotes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182FC0A51C6625B60017CF7B /* RoamingNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182FC0BA1C6625B60017CF7B /* Build configuration list for PBXNativeTarget "RoamingNotes" */;
+			buildPhases = (
+				182FC0A21C6625B60017CF7B /* Sources */,
+				182FC0A31C6625B60017CF7B /* Frameworks */,
+				182FC0A41C6625B60017CF7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoamingNotes;
+			productName = RoamingNotes;
+			productReference = 182FC0A61C6625B60017CF7B /* RoamingNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182FC09E1C6625B60017CF7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FIU;
+				TargetAttributes = {
+					182FC0A51C6625B60017CF7B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 92C3RMCC46;
+					};
+				};
+			};
+			buildConfigurationList = 182FC0A11C6625B60017CF7B /* Build configuration list for PBXProject "RoamingNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182FC09D1C6625B60017CF7B;
+			productRefGroup = 182FC0A71C6625B60017CF7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182FC0A51C6625B60017CF7B /* RoamingNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182FC0A41C6625B60017CF7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182FC0B61C6625B60017CF7B /* LaunchScreen.storyboard in Resources */,
+				182FC0B31C6625B60017CF7B /* Assets.xcassets in Resources */,
+				182FC0B11C6625B60017CF7B /* Main.storyboard in Resources */,
+				182FC0C61C6655D70017CF7B /* RoamingNotesSettings.plist in Resources */,
+				182FC0D41C66A9070017CF7B /* classes.plist in Resources */,
+				18A9458E1C673F9F00742655 /* ClassNotes.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182FC0A21C6625B60017CF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182FC0D61C66AD860017CF7B /* Class.swift in Sources */,
+				182FC0AE1C6625B60017CF7B /* ClassesViewController.swift in Sources */,
+				182FC0CE1C667CA30017CF7B /* NotesTableViewController.swift in Sources */,
+				18A945841C67101F00742655 /* MainTabBarViewController.swift in Sources */,
+				182FC0E21C66D0340017CF7B /* NotesInformationViewController.swift in Sources */,
+				182FC0CC1C6676750017CF7B /* Notes.swift in Sources */,
+				18A9458A1C673D2300742655 /* ClassNotes.swift in Sources */,
+				182FC0DE1C66AE360017CF7B /* ClassTableViewCell.swift in Sources */,
+				18A945881C67348200742655 /* ClassNoteListingTableViewController.swift in Sources */,
+				182FC0E61C66D86D0017CF7B /* UploadTableViewController.swift in Sources */,
+				182FC0DC1C66AE0F0017CF7B /* ClassTableTableViewController.swift in Sources */,
+				182FC0D21C6696F30017CF7B /* NotesImageViewController.swift in Sources */,
+				182FC0AA1C6625B60017CF7B /* AppDelegate.swift in Sources */,
+				182FC0BE1C662E7F0017CF7B /* SavedNotesViewController.swift in Sources */,
+				18A9458C1C673E1D00742655 /* ClassNotesTableViewCell.swift in Sources */,
+				182FC0C21C663A1E0017CF7B /* UploadNotesViewController.swift in Sources */,
+				182FC0C01C6631920017CF7B /* SettingsViewController.swift in Sources */,
+				182FC0AC1C6625B60017CF7B /* HomeViewController.swift in Sources */,
+				182FC0C41C664CBC0017CF7B /* SettingsTableViewController.swift in Sources */,
+				18A945861C672B7700742655 /* ClassDetailViewController.swift in Sources */,
+				182FC0CA1C6675080017CF7B /* SaveNotesTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182FC0AF1C6625B60017CF7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182FC0B01C6625B60017CF7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182FC0B41C6625B60017CF7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182FC0B51C6625B60017CF7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182FC0B81C6625B60017CF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182FC0B91C6625B60017CF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182FC0BB1C6625B60017CF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoamingNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.fmend031.RoamingNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182FC0BC1C6625B60017CF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoamingNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.fmend031.RoamingNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182FC0A11C6625B60017CF7B /* Build configuration list for PBXProject "RoamingNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182FC0B81C6625B60017CF7B /* Debug */,
+				182FC0B91C6625B60017CF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182FC0BA1C6625B60017CF7B /* Build configuration list for PBXNativeTarget "RoamingNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182FC0BB1C6625B60017CF7B /* Debug */,
+				182FC0BC1C6625B60017CF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182FC09E1C6625B60017CF7B /* Project object */;
+}
